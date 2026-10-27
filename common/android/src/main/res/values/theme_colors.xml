@@ -27,39 +27,44 @@
     <!-- color used for bury count in study options(same as anki for light and dark) -->
     <color name="disabled_gray_light">#858585</color>
     <color name="disabled_gray_dark">#fcfcfc</color>
-    <!-- ===== Violet "Expressive" palette (fork restyle) ===== -->
-    <color name="violet_primary">#FF6B5CFF</color>
-    <color name="violet_primary_dark">#FF5646E5</color>
-    <color name="violet_primary_dim">#FFA08BFF</color>
-    <color name="violet_200">#FFC9C2FF</color>
-    <color name="violet_surface_light">#FFF6F5FF</color>
-    <color name="violet_surface_dark">#FF121022</color>
-    <color name="violet_bar_dark">#FF2E2760</color>
-    <color name="violet_row_current_dark">#FF26214A</color>
-    <color name="violet_fab_dark">#FF7C6BFF</color>
+    <!-- ===== Quiet system (fork restyle v2) ===== -->
+    <color name="accent">#FF2E4A87</color>
+    <color name="accent_pressed">#FF253C6F</color>
+    <color name="accent_dim">#FF93AEE0</color>
+    <color name="accent_dim_pressed">#FF7E9BD4</color>
+    <color name="surface_light">#FFF2F1ED</color>
+    <color name="surface_dark">#FF14161A</color>
+    <color name="surface_container_dark">#FF1C1F24</color>
+    <color name="sel_light">#FFEAE8E2</color>
+    <color name="sel_dark">#FF23272F</color>
+    <color name="ink_light">#FF1B1A18</color>
+    <color name="ink_dark">#FFEDEEEF</color>
+    <color name="ink_muted_light">#FF6E6C67</color>
+    <color name="ink_muted_dark">#FF9CA1A8</color>
+    <color name="on_accent_dark">#FF11151D</color>
 
-    <color name="answer_again">#FFE5484D</color>
-    <color name="answer_again_pressed">#FFD84046</color>
-    <color name="answer_again_focused">#FFC23438</color>
-    <color name="answer_hard">#FF64748B</color>
-    <color name="answer_hard_pressed">#FF596678</color>
-    <color name="answer_hard_focused">#FF4E5A6B</color>
-    <color name="answer_good">#FF16A34A</color>
-    <color name="answer_good_pressed">#FF149140</color>
-    <color name="answer_good_focused">#FF117E38</color>
-    <color name="answer_easy">#FF6B5CFF</color>
-    <color name="answer_easy_pressed">#FF5F4FEF</color>
-    <color name="answer_easy_focused">#FF5344D6</color>
-    <color name="answer_again_tint">#FFFCE7E8</color>
-    <color name="answer_hard_tint">#FFEEF1F6</color>
-    <color name="answer_good_tint">#FFDEF7E7</color>
-    <color name="answer_easy_tint">#FFEDEAFF</color>
+    <color name="answer_again">#FFB7414A</color>
+    <color name="answer_again_pressed">#FFA63A43</color>
+    <color name="answer_again_focused">#FF8F3139</color>
+    <color name="answer_hard">#FF5C6673</color>
+    <color name="answer_hard_pressed">#FF525B67</color>
+    <color name="answer_hard_focused">#FF47505B</color>
+    <color name="answer_good">#FF2A7D4F</color>
+    <color name="answer_good_pressed">#FF247044</color>
+    <color name="answer_good_focused">#FF1E623A</color>
+    <color name="answer_easy">#FF2E4A87</color>
+    <color name="answer_easy_pressed">#FF253C6F</color>
+    <color name="answer_easy_focused">#FF1D3159</color>
+    <color name="answer_again_tint">#FFFAEAEA</color>
+    <color name="answer_hard_tint">#FFEDEFF1</color>
+    <color name="answer_good_tint">#FFE4F2EA</color>
+    <color name="answer_easy_tint">#FFEAEDF5</color>
 
-    <color name="count_new">#FF5B8AFF</color>
-    <color name="count_learn">#FFE5484D</color>
-    <color name="count_due">#FF1CB96A</color>
-    <color name="count_dark_new">#FF9DB6FF</color>
-    <color name="count_dark_learn">#FFFF9AA9</color>
-    <color name="count_dark_due">#FF77E2A6</color>
+    <color name="count_new">#FF3E6DC8</color>
+    <color name="count_learn">#FFC2454B</color>
+    <color name="count_due">#FF2A7F54</color>
+    <color name="count_dark_new">#FF8FB0E8</color>
+    <color name="count_dark_learn">#FFE58F8F</color>
+    <color name="count_dark_due">#FF7FC49B</color>
 
 </resources>
