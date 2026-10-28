@@ -3,17 +3,17 @@
     <item android:id="@+id/shape_background">
         <selector>
             <item android:state_pressed="true">
-                <shape android:shape="rectangle"><corners android:radius="12dp"/>
+                <shape android:shape="rectangle"><corners android:radius="14dp"/>
                     <solid android:color="@color/answer_easy_pressed" />
                 </shape>
             </item>
             <item android:state_focused="true">
-                <shape android:shape="rectangle"><corners android:radius="12dp"/>
+                <shape android:shape="rectangle"><corners android:radius="14dp"/>
                     <solid android:color="@color/answer_easy_focused" />
                 </shape>
             </item>
             <item>
-                <shape android:shape="rectangle"><corners android:radius="12dp"/>
+                <shape android:shape="rectangle"><corners android:radius="14dp"/>
                     <solid android:color="@color/answer_easy" />
                 </shape>
             </item>
