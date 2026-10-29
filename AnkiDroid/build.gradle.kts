@@ -899,3 +899,11 @@ dependencies {
     // an "unresolved" warning, which is treated as an error due to allWarningsAsErrors
     testFixturesImplementation(libs.kotlinx.coroutines.core)
 }
+
+// Fork (personal builds): assembling the debug APK also assembles the release APK
+// (minified, optimized). The CI artifact then carries both, no workflow change needed.
+tasks.configureEach {
+    if (name == "assembleFullDebug") {
+        dependsOn("assembleFullRelease")
+    }
+}
